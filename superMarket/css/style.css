@@ -1,0 +1,14 @@
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    list-style: none;
+}
+
+li{
+ font-family:Impact;
+}
