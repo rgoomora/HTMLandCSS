@@ -91,11 +91,40 @@
             <label for="action">
                 <input type="button" onclick="alert('👽 ¡Forms class! 👾')" value="Click Me!"><br><br>
             </label>
+            <!-- ___________________________________________________________________________ -->
+                <hr>
+            <label for="courses">Select a course:</label>
+            <select name="courses" id="">
+                <label for="courses">Select a course</label>
+                <option value="JavaScript">JavaScript</option>
+                <option value="CSS3">CSS3</option>
+                <option value="HTML5">HTML5</option>
+                <option value="Python">Python</option>
+                <option value="Web standards">Web standards</option>
+            </select><br><br>
+            <label for="courses">Select a course:</label>
+            <input list="courses">
+                <datalist id="courses">
+                    <option value="JavaScript"></option>
+                    <option value="CSS3"></option>
+                    <option value="HTML5"></option>
+                    <option value="Python"></option>
+                    <option value="Web standards"></option>
+                </datalist><br><br>
+                <!-- ___________________________________________________________________________ -->
+                    <hr>
             <label for="submit">
                 <input type="submit" value="Submit">
                 <input type="reset">
             </label>
         </form>
+
+        <h1>Buttons</h1>
+
+        <input type="submit" value="This is a button">
+        <button type="submit">This is a button</button>
+        <!-- input type submit = we will use it only in forms -->
+        <!-- Button = we will use it in any other type of button within our project -->
     </main>
 </body>
 </html>
