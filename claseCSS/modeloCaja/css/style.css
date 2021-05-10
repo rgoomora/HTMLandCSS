@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    /* Padding, border RESTA al width */
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+    /* First 20px top & buttom */
+    /* Second 35 left 6 rigth */
+}
