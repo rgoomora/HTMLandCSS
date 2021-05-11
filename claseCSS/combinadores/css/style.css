@@ -1,0 +1,28 @@
+h1{
+    font-family:cursive;
+    background-color: greenyellow;
+}
+
+
+.adjacentSiblings h2 + p{
+    color: green;
+    /* Close brother 
+    If the "p" tag is next to an "h2" tag*/
+}
+
+
+.generalSibling h2 ~ p{
+    color: red;
+/* brother on the same level
+    ***If they are at the same level of inheritance  */    
+}
+
+.child div > p{
+    color: orange;
+    /* Inherit style from father */
+}
+
+.descendant p{
+    color: aqua;
+    /* More common */
+}
