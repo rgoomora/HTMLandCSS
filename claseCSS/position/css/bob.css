@@ -1,0 +1,105 @@
+/* ---------------------- ESTRUCTURA BASE ---------------------- */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* ---------------------- FONDO DE PÁGINA ---------------------- */
+
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/96/5a/d5/965ad5f1a0ec100edbad83163b550e72.jpg");
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ---------------------- ESTILO BOB ESPONJA ---------------------- */
+
+.bob{
+    width: 400px;
+    height: 55vh;
+    background-color: #ffee34;
+    position: absolute;
+    border: 3px solid black;
+    top: 20vh;
+    left: 10vw;
+    padding: 20px;
+    margin: auto;
+}
+.bob img{
+    width: 80%;
+    display: block;
+    margin: 20% auto;
+}
+
+.bob__box{
+    margin-top: 50px;
+}
+
+.bob__name{
+    width: 65%;
+    height: 12%;
+    background-color: #ffee34c7;
+    color: #837a1a;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 11px;   
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    top: -6%;
+    left: 17.5%;
+}
+.bob__name:hover{
+    background-color: #837a1a;
+    color: #ffee34;
+}
+
+/* ---------------------- ESTILO CALAMARDO ---------------------- */
+
+.calamardo{
+    width: 25vh;
+    height: 25vh;
+    background-color: #bee9d6;
+    position: absolute;
+    border: 3px solid black;
+    top: 30vh;
+    left: 30vw;
+    padding: 20px 8px;
+}
+.calamardo img{
+    width: 70%;
+    display: block;
+    margin: 5px auto;
+}
+
+.calamardo__box{
+    margin-top: 30px;
+    font-size: .8rem;
+    padding-left: 0px
+}
+.calamardo__name{
+    width: 65%;
+    height: 12%;
+    background-color: #bee9d6de;
+    color: #5c7268;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 4px;   
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    top: -6%;
+    left: 17.5%;
+}
+.calamardo__name:hover{
+    background-color: #5c7268;
+    color: #bee9d6;
+}

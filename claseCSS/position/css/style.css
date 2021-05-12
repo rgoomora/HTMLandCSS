@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.title{
+    font-family:'Franklin Gothic Medium';
+    font-size: 2.5rem;
+    width: 300px;
+    height: 80px;
+    background-color: slategrey;
+    border-radius: 10px;
+    position: relative;
+    top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* display flex propiedad que permite align-items y justify content */
+}
+
+.content{
+    width: 60vw;
+    min-height: 75vh;
+    margin: auto;
+    border-radius: 25px;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+    padding: 20px 3%;
+    text-align: justify;
+    font-size: 1.7rem;
+}
+
+.content img{
+    display: block;
+    margin: 20px auto;
+}
+
+
